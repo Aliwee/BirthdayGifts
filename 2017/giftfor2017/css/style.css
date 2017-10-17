@@ -1,0 +1,78 @@
+@font-face{
+	font-family: 'HanYi';
+	font-style: normal;
+	src: url('HanYi.ttf') format('truetype');
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: 'HanYi';
+	overflow: hidden;
+	margin:0;
+}
+
+#wait{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 240px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+#preloader{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+#main{
+	width: 100%;
+	height: calc(100% - 60px);
+	position: relative;
+	overflow: hidden;
+}
+
+/* 
+ * Copyright and Related Rights
+ * trust/LICENSE 
+ * https://github.com/ncase/trust
+ */
+/*************************/
+/******* SLIDESHOW *******/
+/*************************/
+#slideshow_container{
+	width:0; height:0;
+	position:absolute;
+	margin:auto; 
+	top:0; left:0; right:0; bottom:0;
+}
+#slideshow{
+	width:960px;
+	height:540px;
+	position: absolute;
+	left:-480px;
+	top:-270px;
+}
+.object{
+	position: absolute;
+	transition: left 0.5s ease-in-out, top 0.5s ease-in-out;
+}
+/******** Text Box ********/
+.textbox{}
+.textbox > div{
+	position: absolute;
+}
