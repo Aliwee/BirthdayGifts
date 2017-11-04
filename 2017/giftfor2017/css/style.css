@@ -13,8 +13,14 @@ body{
 	font-family: 'HanYi';
 	overflow: hidden;
 	margin:0;
+	background: #f7f7f7;
 }
+#page1{
+	text-align: center;
+}
+#page2{
 
+}
 #wait{
 	position: absolute;
     margin: auto;
@@ -41,38 +47,105 @@ body{
 }
 #main{
 	width: 100%;
-	height: calc(100% - 60px);
-	position: relative;
+	height: 100%;
 	overflow: hidden;
 }
 
-/* 
- * Copyright and Related Rights
- * trust/LICENSE 
- * https://github.com/ncase/trust
- */
-/*************************/
-/******* SLIDESHOW *******/
-/*************************/
-#slideshow_container{
-	width:0; height:0;
-	position:absolute;
-	margin:auto; 
-	top:0; left:0; right:0; bottom:0;
+/*************TEXT****************/
+.text{
+	position: relative;	
+	margin: auto;
+	width: auto;
 }
-#slideshow{
-	width:960px;
-	height:540px;
-	position: absolute;
-	left:-480px;
-	top:-270px;
+.tbox1{
+	top: 200px;
+	font-size: 45px;
 }
-.object{
-	position: absolute;
-	transition: left 0.5s ease-in-out, top 0.5s ease-in-out;
+.tbox2{
+	top: 400px;
+	font-size: 30px;
 }
-/******** Text Box ********/
-.textbox{}
-.textbox > div{
+.tbox3{
+	font-size: 20px;
+	top: 120px;
+	left: 200px;
+	line-height: 3em;
+}
+.tbox4{
+	font-size: 20px;
+	top: 120px;
+	left: 43%;
+	line-height: 2em;
+}
+#page3 span{
+	display: block;
+	width: 850px;
+}
+#page4 span{
+	display: block;
+	width: 150px;
+}
+/*************IMAGE****************/
+#img1{
+	width: 100px;
+}
+#img2{
+	width: inherit;
+}
+#img3{
+	width: inherit;
+}
+#img4{
+	width: inherit;
+}
+#play{
+	width: 80px;
+	vertical-align: middle;
+}
+#previous{
+	width: 50px;
+	margin-right: 120px;
+	vertical-align: middle;
+}
+#next{
+	width: 50px;
+	margin-left: 120px;
+	vertical-align: middle;
+}
+.image{
 	position: absolute;
+}
+.ibox1{
+	width: 100%;
+	top: 300px;
+}
+.ibox2{
+	width: 300px;
+	top: 30%;
+	left: 25%;
+}
+.ibox3{
+	width: 300px;
+	top: 30%;
+	left: 50%;
+}
+.ibox4{
+	width: 200px;
+	top: 100px;
+	left: 41%;
+}
+.ibox5{
+	top: 80%;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+/*************BUTTON****************/
+.button{
+	position: absolute;
+	top: 80%;
+	width: 150px;
+	background-color: #c1c1c1;
+	font-size: 30px;
+	text-align: center;
 }

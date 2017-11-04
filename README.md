@@ -11,4 +11,8 @@ The birthday of my friend is coming soon, so my plan for this year is to write s
 
 ----------------Update: 2017/10/17------------------
 
-Made some progress! Now add a release date counter and a preload function using PxLoader.
+Made some progress! Now add a release date counter and a preload function using PxLoader.js and soundManager2.js.
+
+----------------Update: 2017/11/04------------------
+
+Finished all the coding work, created a prototype! All I need to do next is drawing, which is much easier for me. Almost there!

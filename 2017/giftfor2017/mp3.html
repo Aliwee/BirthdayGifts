@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta charset="utf-8"/>
+		<title>Birthday Gift 2017</title>
+		<link rel="icon" type="image/png" href="img/little_icon.png">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body id="page4">
+		<div class="image ibox4">
+			<img src="img/mp3interface.png" id="img4"/>
+		</div>
+		<div class="text tbox4">
+			<span id="song1">南山南</span>
+			<span id="song2">Oceans Deep</span>
+			<span id="song3">I Will Return</span>
+		</div>
+		<div class="image ibox5">
+			<img src="img/previous.png" id="previous"/>
+			<img src="img/play.png" id="play"/>
+			<img src="img/next.png" id="next"/>
+		</div>
+		<div class="button" >返回</div>
+	</body>
+</html>
+
+<!-- Libraries -->
+<script type="text/javascript" src="js/lib/jquery-3.2.1.min.js" ></script>
+<script type="text/javascript" src="js/core/Data.js" ></script>
+<script type="text/javascript" src="js/lib/soundmanager2.js" ></script>
+
+<!-- Core -->
+<script type="text/javascript" src="js/core/Initialization.js" ></script>
+<script type="text/javascript" src="js/core/EventHandler.js" ></script>
+
+<!-- Event -->
+<script>
+	$(document).ready(function(){
+		soundManager.onready(function(){
+			mySong1 = soundManager.createSound({
+		      id: 'song1',
+		      url: 'song/song1.mp3'
+		    });
+		    mySong2 = soundManager.createSound({
+		      id: 'song2',
+		      url: 'song/song2.mp3'
+		    });
+		    mySong3 = soundManager.createSound({
+		      id: 'song3',
+		      url: 'song/song3.mp3'
+		    });
+		});
+		currentSongId = 1;
+		hover();
+		play();
+		next();
+		previous();
+		clickGift();
+	});
+</script>

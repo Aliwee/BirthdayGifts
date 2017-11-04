@@ -5,24 +5,42 @@
 		<meta charset="utf-8"/>
 		<title>Birthday Gift 2017</title>
 		<link rel="icon" type="image/png" href="img/little_icon.png">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		
+		<link rel="stylesheet" type="text/css" href="css/style.css">	
 	</head>
-	<body>
+	<body id="page1">
 		<div id="wait">还未到解锁日期哦=W=</div>
 		<div id="preloader" style="display:none">加载中...</div>
 		<div id="main" style="display:none">
-			
+			<div class="text tbox1">
+				“看呐，一个礼物”
+			</div>
+			<div class="image ibox1">
+				<img src="img/giftbox.png" id="img1"/>
+			</div>
+			<div class="text tbox2"  style="display:none" id="open">
+				当然是拆开它啦
+			</div>
 		</div>
 	</body>
 </html>
 
 <!-- Libraries -->
-<script type="text/javascript" src="js/lib/jquery-3.2.1.min.js" ></script>
 <script type="text/javascript" src="js/core/Data.js" ></script>
+<script type="text/javascript" src="js/lib/jquery-3.2.1.min.js" ></script>
+<script type="text/javascript" src="js/lib/soundmanager2.js" ></script>
 <script type="text/javascript" src="js/lib/PxLoader.js" ></script>
 <script type="text/javascript" src="js/lib/PxLoaderImage.js" ></script>
+<script type="text/javascript" src="js/core/PxLoaderSound.js" ></script>
 
-<!-- Core-->
+<!-- Core -->
 <script type="text/javascript" src="js/core/Initialization.js" ></script>
-<script type="text/javascript" src="js/core/Preload.js" ></script>
+<script type="text/javascript" src="js/core/EventHandler.js" ></script>
+
+<!-- Event -->
+<script>
+	$(document).ready(function(){
+		startUp();
+		hover();
+		clickGift();
+	});
+</script>
