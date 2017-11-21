@@ -1,4 +1,4 @@
-var releaseDate = '2017-1-25'; //release date!!!
+var releaseDate = '2017-11-25'; //release date!!!
 var winwidth; //width of the window in browser
 //img urls
 var imgUrl1 = "url(img/back1.png)";

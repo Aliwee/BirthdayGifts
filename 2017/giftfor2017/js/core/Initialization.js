@@ -4,14 +4,11 @@ function drawBack(page){
 	
 	if(page == "page1"){
 		$("#"+page).css("background-image",imgUrl1);
-		$("#"+page).css("background-size",winwidth+"px");
+		$("#"+page).css("background-size",winwidth+"px");	
 	}
-	else if(page == "page2"){
-//		$("#"+page).css("background-image",imgUrl2);
-//		$("#"+page).css("background-size",winwidth+"px");
-	}
-	else if(page == "page3"){
-		
+	else if(page == "page4"){
+		$("#"+page).css("background-image",imgUrl2);
+		$("#"+page).css("background-size",winwidth+"px"+ " 630px");
 	}
 	else{
 		//do nothing

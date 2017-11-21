@@ -16,3 +16,7 @@ Made some progress! Now add a release date counter and a preload function using 
 ----------------Update: 2017/11/04------------------
 
 Finished all the coding work, created a prototype! All I need to do next is drawing, which is much easier for me. Almost there!
+
+----------------Update: 2017/11/18------------------
+
+Made it! 

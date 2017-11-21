@@ -73,7 +73,7 @@ body{
 }
 .tbox4{
 	font-size: 20px;
-	top: 120px;
+	top: 118px;
 	left: 43%;
 	line-height: 2em;
 }
@@ -87,7 +87,7 @@ body{
 }
 /*************IMAGE****************/
 #img1{
-	width: 100px;
+	width: 320px;
 }
 #img2{
 	width: inherit;
@@ -99,16 +99,16 @@ body{
 	width: inherit;
 }
 #play{
-	width: 80px;
+	width: 90px;
 	vertical-align: middle;
 }
 #previous{
-	width: 50px;
+	width: 60px;
 	margin-right: 120px;
 	vertical-align: middle;
 }
 #next{
-	width: 50px;
+	width: 60px;
 	margin-left: 120px;
 	vertical-align: middle;
 }
@@ -117,16 +117,16 @@ body{
 }
 .ibox1{
 	width: 100%;
-	top: 300px;
+	top: 220px;
 }
 .ibox2{
-	width: 300px;
-	top: 30%;
-	left: 25%;
+	width: 480px;
+	top: 20%;
+	left: 15%;
 }
 .ibox3{
-	width: 300px;
-	top: 30%;
+	width: 480px;
+	top: 20%;
 	left: 50%;
 }
 .ibox4{
@@ -135,7 +135,7 @@ body{
 	left: 41%;
 }
 .ibox5{
-	top: 80%;
+	top: 81%;
 	width: 100%;
 	float: left;
 	text-align: center;

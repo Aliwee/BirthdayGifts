@@ -32,13 +32,13 @@ function preload(){
 	
 	//add images
 	loader.add(new PxLoaderImage('img/back1.png'));
+	loader.add(new PxLoaderImage('img/back2.png'));
 	loader.add(new PxLoaderImage('img/giftbox.png'));
 	loader.add(new PxLoaderImage('img/giftbox2.png'));
 	loader.add(new PxLoaderImage('img/doc.png'));
 	loader.add(new PxLoaderImage('img/doc2.png'));
 	loader.add(new PxLoaderImage('img/mp3.png'));
 	loader.add(new PxLoaderImage('img/mp32.png'));
-	loader.add(new PxLoaderImage('img/mp3interface.png'));
 	loader.add(new PxLoaderImage('img/next.png'));
 	loader.add(new PxLoaderImage('img/play.png'));
 	loader.add(new PxLoaderImage('img/previous.png'));
@@ -57,7 +57,7 @@ function preload(){
 	loader.addCompletionListener(function(e) { 
    	 	$("#preloader").remove();
 		$("#main").toggle();
-		//drawBack("page1");
+		drawBack("page1");
 	}); 
 	
 	loader.start();
@@ -139,7 +139,7 @@ function hover(){
 		$("#open").toggle();
 	},function(){		
 		$(this).attr("src",imgUrl4);
-		$(this).css("width","100px");
+		$(this).css("width","320px");
 		$("#open").toggle();
 	});
 	$("#img2").hover(function(){
